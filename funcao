@@ -1,0 +1,89 @@
+// this is a js file
+// 
+
+/*
+
+1- ..
+
+2- SUBA NUM ÔNIBUS EM MARROCOS 27
+
+*/ 
+/*let nome; 
+let email;
+
+
+
+nome = prompt ("qual seu nome?"); 
+email = prompt ("qual seu email?");
+
+console.log ("O e-mail", email, "foi cadastrado com sucesso. Seja bem vindo", nome);
+
+const listaDecompras = [ "maça", "batata frita", "biscoito", "pastel", "laranja" ]
+
+let comidas = listaDecompras;
+
+console.log (listaDecompras);
+
+console.log("essas são minhas comidas preferidas");
+console.log (comidas[0]);
+console.log (comidas[1]);
+console.log (comidas[2]);
+console.log (comidas[3]);
+console.log (comidas[4]);
+
+
+comidas[1]=prompt ("qual sua comida favorita?");
+
+console.log(comidas);
+*/
+
+/*function imprimirOlaMundo()
+{console.log ("ola Pedro !")}
+
+imprimirOlaMundo()
+
+function escrevenome(nome)
+{console.log(nome);
+}
+
+escrevenome("pedro")
+
+const a = 1
+function imprimeVariavel(){
+    const b = 2
+    console.log("Variavel a", a)
+    console.log('Variavel b', b)
+
+
+imprimeVariavel()
+console.log('Variavel a', a)
+console.log('Variavel b', b)*/
+
+/*function calculaArea(altura, largura){
+    const area = altura * largura;
+    return area;
+}
+
+const areaCalculada =  calculaArea(5, 8);
+
+console.log("Variavel areaCalculada: "+ areaCalculada);
+console.log("chamada da funcao crua: "+calculaArea(5, 3));
+
+function calculaNumero(number, number1){
+const numeros = number + number1;
+return numeros;
+}
+const calcula = calculaNumero(24, 54);
+
+console.log("resultado: "+calculaNumero(23, 42));
+*/
+
+function number2(conjunto){
+    let b = [(conjunto[0]/2), (conjunto[conjunto.length-1]/2)];
+    //b[0] = conjunto[0]/2;
+   //b[1] = conjunto[1]/2;
+    return b;
+}
+
+const numeros = [1, 2, 3, 4, 8];
+console.log(number2(numeros));
